@@ -38,11 +38,14 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Written by <strong>{author}</strong> who lives and works in Alpharetta, GA.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+
+                You should follow him on <a target={"_blank"} href={`https://twitter.com/${social.twitter}`}>Twitter
+              </a>
+              {` `}
+
+                or on <a target={"_blank"} href={`https://github.com/${social.github}`}>GitHub
               </a>
             </p>
           </div>
@@ -66,6 +69,7 @@ const bioQuery = graphql`
         author
         social {
           twitter
+          github
         }
       }
     }
