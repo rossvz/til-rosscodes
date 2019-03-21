@@ -1,0 +1,18 @@
+body {
+  background: #061923;
+  color: #e5c49e;
+}
+a {
+  color: #db662d;
+  box-shadow: none;
+  text-decoration: underline dotted #dd998a;
+}
+
+code {
+  color:#ffe9d7;
+  margin: 0.75em 0;
+}
+
+.layout-container {
+
+}

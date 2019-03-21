@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import './Layout.css'
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
@@ -53,6 +53,7 @@ class Layout extends React.Component {
     }
     return (
       <div
+        className={'layout-container'}
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
